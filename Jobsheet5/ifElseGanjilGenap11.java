@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class ifElseGanjilGenap11 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("--- Program Cek Ganjil/Genap ---");
+        System.out.print("Masukkan sebuah angka: ");
+        int angka = sc.nextInt();
+
+        if (angka % 2 == 0) {
+            System.out.println("Genap");
+        } else {
+            System.out.println("Ganjil");
+        }
+    }
+}
